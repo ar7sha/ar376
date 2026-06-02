@@ -20,5 +20,6 @@ function mix is so clear and needs no explanation
 ## About it security
 I know it's Deterministic, Fixed Output Length,Pre-image Resistance
 Other criteria are untested.
+##
 If there was anything else that was unclear, you can ask or refer to the code again.
 This project is currently closed as I'm working on a new hash, but I'm open to feedback, ideas, and questions.🙂🙃
