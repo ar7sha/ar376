@@ -74,13 +74,6 @@ def hasher(ipath,opath,f1=4,f2=5,salt=1):
         ambiguous = pow(int(r1),int(r2))
         vague = pow(ambiguous,1,magic_number)
         return vague
-    def mk376(res:int,fog:int):
-        r = 0
-        while True :
-            if r.bit_length() == 376 :
-                break
-            r = pow(res,fog , fixed_size)
-        return r
     def mix():
         stop = 'go'
         ihave_runoutof_names = []
@@ -97,10 +90,7 @@ def hasher(ipath,opath,f1=4,f2=5,salt=1):
         return ihave_runoutof_names
     with open(opath,"ab") as rfile :
         t:int  = mix()[0]
-        rr = 0
-        if t.bit_length() != 376 :
-            rr = mk376(t,314159)
-        rfile.write(f'{hex(rr)[2:]}'.encode())
+        rfile.write(f'{hex(t)[2:]}'.encode())
                 
 
 
