@@ -11,7 +11,7 @@ First it reads data from a file in 106 bit blocks.
 Then 3 bits(the first, middle, last and second-to-last) in the block are used to derive three key-like values.
 After that in the function liner for each bit ,several operations are performed including all 6 gates and..., i won't say all of them because there are many of them, you can see at the code lines 25 to 61, it's not complex but will say some points from it here that are a little vague:
 
-line 26 : salt will affects on i , and i will have affects on all gates and it will have effect on all of the output.the salt is one byte.
+line 26 : salt will affects on i , and i will have affects on all gates and it will have effect on all of the output.the salt is one byte.\n
 line 34 : inheritance is an integer that each block modifies it and make it bigger.
 line 36 to 55 : variables in this range are prevented from becoming zero.
 line 58 and 57 : 1000000000007 and 1000000000001 are just a ceiling so that the process doesn't become too slow.
