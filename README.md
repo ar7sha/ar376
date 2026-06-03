@@ -19,7 +19,8 @@ If there was anything else that was unclear, you can ask or refer to the code ag
 After liner function liner we have mk_hazy function , as you guessed from the function name this function make the linear output less predictable and with f1 and f2 you can adjust the processing speed and it may also affect the output. Don't use 0 for f1 and f2 , that you will get error.
 The mix function is straightforward and needs no further explanation
 ## Security status
-I know it's deterministic,has fixed output length and appears to provide pre-image resistance
+I know it's deterministic and appears to provide pre-image resistance
+It don't has fixed output length
 Other criteria are untested.
 ##
 If there was anything else that was unclear, you can ask or refer to the code again.
