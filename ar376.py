@@ -99,7 +99,7 @@ def hasher(ipath,opath,f1=4,f2=5,salt=1):
         t:int  = mix()[0]
         rr = 0
         if t.bit_length() != 376 :
-            rr = mk376(t,fixed_size)
+            rr = mk376(t,314159)
         rfile.write(f'{hex(rr)[2:]}'.encode())
                 
 
