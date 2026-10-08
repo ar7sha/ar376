@@ -1,4 +1,4 @@
-# ar376 untested hash algorithm - currently closed
+# ar376 failed hash algorithm - currently closed
 **DO NOT USE IN PRODUCTION**
 ar376 is a **password** hash algorithm that I made for fun and learning.
 It was my first hash algorithm I ever created.
